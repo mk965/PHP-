@@ -1,0 +1,132 @@
+	
+<div class="layout-footer">
+                    <div class="footer">
+                        <div style="background-color:#333" class="footer--bg"></div>
+                        <div class="footer--inner">
+                            <div class="container">
+                                <div class="footer_main">
+                                    <div class="am-g">
+                                        <div class="am-u-md-6 ">
+                                            <div class="footer_main--column">
+                                                <strong class="footer_main--column_title">关于艾意迪教育</strong>
+                                                <div class="footer_about">
+                                                    <p class="footer_about--text">青岛艾意迪教育是青岛地区专业多语种培训、留学、科研机构，自成立以来取得了辉煌的发展业绩，累计为社会培养日韩语人才上千人，得到了培训业界充分的肯定以及众多好评。</p>
+                                                    <p class="footer_about--text">学校现开设日语、韩语、对外汉语培训<!--，日韩留学签证服务。艾意迪教育已经成为拥有聘用外国专家教师资格的省级教学单位，拥有自主版权教材及核心力量的省级社会力量办学单位-->。</p></div>
+                                            </div>
+                                        </div>
+                                        <div class="am-u-md-3 ">
+                                            <div class="footer_main--column">
+                                                <strong class="footer_main--column_title">艾意迪教育</strong>
+                                                <ul class="footer_navigation">
+                                                    <li class="footer_navigation--item">
+                                                        <a href="#" class="footer_navigation--link">城阳分校</a></li>
+                                                    <li class="footer_navigation--item">
+                                                        <a href="#" class="footer_navigation--link">更多分校</a></li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                        <div class="am-u-md-3 ">
+                                            <div class="footer_main--column">
+                                                <strong class="footer_main--column_title">联系我们</strong>
+                                                <ul class="footer_contact_info">
+                                                    <li class="footer_contact_info--item">
+                                                        <i class="am-icon-phone"></i>
+                                                        <span>咨询热线：0532-80609665</span>
+                                                    </li>
+                                                    <li class="footer_contact_info--item">
+                                                        <i class="am-icon-phone"></i>
+                                                        <span>城阳总校：0532-89081203</span>
+                                                    </li>
+                                                    <li class="footer_contact_info--item">
+                                                        <i class="am-icon-map-marker"></i>
+                                                        <span>城阳区兴阳路308号假日酒店办公楼311</span>
+                                                    </li>
+                                                    <li class="footer_contact_info--item">
+                                                        <i class="am-icon-pencil-square"></i>
+                                                        <span>免费课程试听通道&rarr;</span>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="container">
+                        <div class="am-g">
+                            <span class="m-u-sm-12 am-u-md-9 am-u-lg-10 am-text-left">Copyright @ 2010 - 2018 www.ayidiedu.com. All Rights Reserved 艾意迪教育 | 
+                                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=37021402000729" rel="external nofollow" target="_blank">
+									<img src="images/gongan.png">
+									鲁公网安备 37021402000729号
+								</a> | 
+								<a href="http://www.miitbeian.gov.cn/" rel="external nofollow" target="_blank">鲁ICP备18032038号</a>
+							</span>
+                            <span class="m-u-sm-12 am-u-md-3 am-u-lg-2 ico am-text-right am-hide-sm-only a">
+                                <a href="" data-am-popover="{content: '39453744', trigger: 'hover focus'}" rel="nofollow">
+                                    <i class="am-icon-qq"></i>
+                                </a>
+                                <a href="" data-am-popover="{content: '0532-89091203', trigger: 'hover focus'}" rel="nofollow">
+                                    <i class="am-icon-phone-square"></i>
+                                </a>
+                                <a href="" data-am-popover="{content: '<img style=height:100px; src=images/qrcode.jpg />', trigger: 'hover focus'}" rel="nofollow">
+                                    <i class="am-icon-weixin"></i>
+                                </a>
+                                <a href="" data-am-popover="{content: 'idwaiyupeixun@163.com', trigger: 'hover focus'}" rel="nofollow">
+                                    <i class="am-icon-envelope"></i>
+                                </a>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <script src="assets/js/jquery.js" type="text/javascript" charset="utf-8"></script>
+                <script src="assets/js/amazeui.js" charset="utf-8"></script>
+                <script src="js/common.js" charset="utf-8"></script>
+				<script>
+					/*导航条
+					$(function(){
+						$('#header-box').hide();
+						$(function(){
+							$(window).scroll(function(){
+								if($(window).scrollTop()>150){
+									$('#header-box').fadeIn(300);
+								}
+								else{$('#header-box').fadeOut(50);}
+								
+							});
+							//$('#header-box').click(function(){
+							//	$('body,html').animate({scrollTop:0},300);
+							//	return false;
+							//})
+						})
+					})*/
+					//滑动
+					function huadong(map){
+						var map1 = "." + map;
+						console.log(map1);
+						$('html,body').animate({
+							//scrollTop: $(this.hash).offset().top - 60
+							scrollTop: $(map1).offset().top 
+						}, 1000);
+					}
+					
+				</script>
+				
+                <script>
+					$.post("Home/api/getData?type=banner", function(data) {
+						var jsonObj = eval("(" + data + ")");
+						console.log(data);
+						var innInfo1 = '<li style="margin-right: 0px; float: left; display: block; width: 1349px;" class="" data-thumb-alt=""><a href="#" style="background:url(' + jsonObj['data'][0]['banner_url'] + ') no-repeat center top;"></a></li>';
+						var innInfo2 = '<li style="margin-right: 0px; float: left; display: block; width: 1349px;" class="" data-thumb-alt=""><a href="#" style="background:url(' + jsonObj['data'][1]['banner_url'] + ') no-repeat center top;"></a></li>';
+						var innInfo3 = '<li style="margin-right: 0px; float: left; display: block; width: 1349px;" class="" data-thumb-alt=""><a href="#" style="background:url(' + jsonObj['data'][2]['banner_url'] + ') no-repeat center top;"></a></li>';
+						var innInfo = innInfo1 + innInfo2 + innInfo3 + innInfo1;
+						
+						console.log(innInfo);
+						//$("#index_banner").html(innInfo1);
+					});
+				</script>
+    </body>
+
+</html>

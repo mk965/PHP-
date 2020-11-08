@@ -1,0 +1,36 @@
+body{ background:#000;}
+.header{  padding:10px; background:#fff; border-bottom:3px solid #ffa509;}
+
+
+.banner{ margin:0px auto 0 auto; text-align:center; }
+.banner img{ display:block; margin:0 auto;}
+.price{ background:#3ea200; height:80px; margin:-40px 10px 0 10px; position:relative; z-index:99; overflow:hidden;}
+.price-span{ font-size:3.6rem; color:#fff; margin:0; padding:0; display:block; line-height:100%; margin-top:10px;}
+.price .p1{ margin:0; padding:0; color:#fff; font-size:1.3rem;}
+.price .p1 span{ text-decoration:line-through;}
+.price .p2{ font-size:1.3rem; color:#fff; margin:0;}
+.price .wyzx-btn{ display:inline-block; background:#fff; width:100%; height:40px; line-height:40px; margin:20px 0; font-size:1.8rem; text-align:center; color:#37810a; border-radius:3px;}
+.main{ max-width:640px; margin:0 auto; min-width:320px;}
+.clear{ height:0; clear:both; font-size:0;}
+.telphone, .telphone a{ background:#333;  font-size:2rem;  text-align:center; color:#fff; padding:10px 0;}
+.telphone{ margin-bottom:-5px;}
+.am-navbar-default .am-navbar-nav{ background:#1090fd;}
+.title{ margin:15px auto; }
+.title h2{ font-size:2rem; margin:0; padding:0; text-align:center; color:#1f1f1f;}
+
+.yuyue{border:1px solid #ab8945; border-radius:3px; margin:2.3rem; }
+.yuyue-btn{ width:100%; /*background:#ff0048;*/ background: #0e90d2; color:#fff; border-radius:3px;}
+
+.more{ margin:15px auto; width:90%;}
+.more a{ display:block; background:#0d89f3; color:#fff; text-align:center; padding:8px 0; border-radius:3px; font-size:1.5rem; margin:0 auto;}
+
+.why{ background:#f6f6f6 url(../images/topic/riyubanMobi/why-bg.jpg) no-repeat center top;  border:1px solid #ab8945; border-radius:3px; margin:2.3rem;padding-bottom:15px;}
+.why .title h2{ color:#fff;}
+.what-icon{ padding-top:15px;}
+.what-icon li{ text-align:center; padding-bottom:10px;}
+.what-icon li img{ margin:0 auto; width:60%;}
+.what-icon li h2{ font-size:1.3rem; margin:5px auto; padding:0; color:#fff;}
+.what-icon li p{ font-size:1rem; color:#aaa; margin:0 auto 10px auto; padding:0;}
+.course{ border:1px solid #ab8945; border-radius:3px; margin:2.3rem; padding-bottom:15px;}
+.course .title h2, .yuyue .title h2{ color:#fff;}
+.course-ul li img{ width:90%; margin:15px auto 0 auto;}
